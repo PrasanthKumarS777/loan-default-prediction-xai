@@ -34,3 +34,7 @@ mlartifacts/
 
 # Outputs
 outputs/
+.env
+*.log
+logs/
+venv/
