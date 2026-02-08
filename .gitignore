@@ -1,0 +1,36 @@
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+env/
+.env
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Outputs
+outputs/
