@@ -1,8 +1,5 @@
 🏦 Loan Default Prediction API with Explainable AI (XAI)
-[
-[
-[
-[
+
 
 A production-ready RESTful API for loan default prediction with SHAP-based explainability, containerized with Docker and deployed on Render.
 
@@ -50,6 +47,11 @@ loan-default-prediction-xai/
 │   └── explainability.py
 ├── Dockerfile
 └── requirements.txt
+
+
+
+
+
 🔌 API Endpoints
 1. Health Check
 text
