@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, LineChart, Line } from 'recharts';
 import { CheckCircle, XCircle, TrendingUp, AlertCircle, BarChart3, Shield, Users, DollarSign, Award, Brain, Activity, Zap, Target, Sparkles } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import axios from 'axios';
 import './App.css';
 
@@ -485,6 +486,7 @@ function App() {
           )}
         </div>
       </div>
+      <SpeedInsights />
     </div>
   );
 }
