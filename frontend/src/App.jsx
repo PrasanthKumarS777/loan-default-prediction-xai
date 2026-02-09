@@ -70,7 +70,8 @@ function App() {
     setPrediction(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/predict', formData);
+      const response = await axios.post('https://loan-default-prediction-xai.onrender.com/predict', formData);
+
       setPrediction(response.data);
       setLiveStats(prev => ({ ...prev, totalPredictions: prev.totalPredictions + 1 }));
     } catch (err) {
